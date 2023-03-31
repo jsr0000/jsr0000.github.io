@@ -1,0 +1,153 @@
+body {
+    font-family: helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    margin: 0;
+    text-align: center;
+}
+
+a {
+    color: seashell;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+
+
+header {
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: flex;
+
+}
+
+header img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+    padding-right: 15px;
+
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.mission {
+    height: 700px;
+    background-image: url('/Users/joshregnart/Desktop/Code/Directory/Tea Cozy/Resources/IMGs/img-mission-background.jpeg');
+    padding-top: 70px;
+}
+
+.mission-text {
+    background-color: black;
+    margin: auto;
+    width: 100%;
+    margin-top: 250px;
+
+}
+
+.featured-tea {
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+    
+}
+
+.item {
+    padding: 5px;
+
+}
+
+.item img {
+    height: 200px;
+    display: block;
+    margin: 10px;
+}
+
+.item span {
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container-items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.locations {
+    background-image: url('/Users/joshregnart/Desktop/Code/Directory/Tea Cozy/Resources/IMGs/img-locations-background.jpeg');
+    height: 500px;
+    padding-top: 70px;
+}
+
+.container-locations {
+    display: inline-flex
+}
+
+.location {
+    background-color: black;
+    padding: 10px;
+    margin: 5px 20px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: center;
+
+}
+.locations h2 {
+    padding-bottom: 15px;
+}
+
+footer {
+    margin-left: 20px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+footer span {
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 0 0 12px 0;
+}
